@@ -5,7 +5,7 @@
 
 .menu-item {
     width: 100%;
-    font-family: 'IBM Plex Sans', sans-serif;
+    font-family: var(--font-family);
     line-height: 2rem;
 
     &.separate {
