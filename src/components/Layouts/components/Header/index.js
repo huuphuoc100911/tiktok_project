@@ -21,7 +21,7 @@ import 'tippy.js/dist/tippy.css';
 
 import { Wrapper as PopperWrapper } from '~/components/Popper';
 import AccountItem from '~/components/AccountItem';
-import { UploadIcon } from '~/components/Icons';
+import { UploadIcon, MessageIcon, InboxIcon, SearchIcon } from '~/components/Icons';
 import Menu from '~/components/Popper/Menu';
 import Button from '~/components/Button';
 import Image from '~/components/Image';
@@ -141,7 +141,8 @@ function Header() {
                         <FontAwesomeIcon className={cx('loading')} icon={faSpinner} />
 
                         <button className={cx('search-btn')}>
-                            <FontAwesomeIcon icon={faMagnifyingGlass} />
+                            {/* <FontAwesomeIcon icon={faMagnifyingGlass} /> */}
+                            <SearchIcon />
                         </button>
                     </div>
                 </HeadlessTippy>
@@ -153,6 +154,16 @@ function Header() {
                                 <button className={cx('action-btn')}>
                                     {/* <FontAwesomeIcon icon={faCloudUpload} /> */}
                                     <UploadIcon />
+                                </button>
+                            </Tippy>
+                            <Tippy delay={[0, 200]} content="Message" placement="bottom">
+                                <button className={cx('action-btn')}>
+                                    <MessageIcon />
+                                </button>
+                            </Tippy>
+                            <Tippy delay={[0, 200]} content="Inbox" placement="bottom">
+                                <button className={cx('action-btn')}>
+                                    <InboxIcon />
                                 </button>
                             </Tippy>
                         </>
