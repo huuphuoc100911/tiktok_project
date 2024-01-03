@@ -1,0 +1,42 @@
+// Menu
+.menu-list {
+    width: 224px;
+}
+
+.menu-item {
+    width: 100%;
+    font-family: 'IBM Plex Sans', sans-serif;
+    line-height: 2rem;
+
+    &.separate {
+        border-top: 1px solid rgba(22, 24, 35, 0.12);
+    }
+
+    &:hover {
+        background-color: rgba(22, 24, 35, 0.03);
+    }
+}
+
+// Header
+.header {
+    position: relative;
+    margin-top: -8px;
+    height: 50px;
+}
+.back-btn {
+    width: 50px;
+    height: 100%;
+    background: transparent;
+    cursor: pointer;
+}
+
+.header-title {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.menu-item-title {
+    font-weight: 500;
+}
