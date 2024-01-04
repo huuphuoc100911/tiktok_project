@@ -68,6 +68,10 @@
     color: var(--primary-color);
     border-color: currentColor;
 
+    .title {
+        color: var(--primary-color);
+    }
+
     &:hover {
         background-color: rgba(254, 44, 85, 0.08);
         border-color: currentColor;
