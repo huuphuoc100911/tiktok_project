@@ -131,7 +131,7 @@ function Header() {
                             <Button text to="/upload">
                                 Upload
                             </Button>
-                            <Button primary to="/login">
+                            <Button outline to="/login">
                                 Log in
                             </Button>
                         </>
