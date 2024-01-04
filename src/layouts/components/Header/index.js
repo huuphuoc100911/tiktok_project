@@ -139,7 +139,7 @@ function Header() {
                     <Menu items={currentUser ? userMenu : MENU_ITEM} onChange={handleMenuChange}>
                         {currentUser ? (
                             <Image
-                                src="https://p1-sign-sg.tiktokcdn.com/aweme/100x100/tos-alisg-avt-0068/65556a9a851d5f1d92c282cb1d94b3d0.jpeg?lk3s=a5d48078&x-expires=1704420000&x-signature=Dui6kIpPxsFnQXsP8%2BXQA4UvjZ0%3D"
+                                src="https://p16-sign-sg.tiktokcdn.com/aweme/100x100/tos-alisg-avt-0068/65556a9a851d5f1d92c282cb1d94b3d0.jpeg?lk3s=a5d48078&x-expires=1704420000&x-signature=Dui6kIpPxsFnQXsP8%2BXQA4UvjZ0%3D"
                                 className={cx('user-avatar')}
                                 alt="ABC"
                                 // fallback="https://fullstack.edu.vn/static/media/f8-icon.18cd71cfcfa33566a22b.png"
